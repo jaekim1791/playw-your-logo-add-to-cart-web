@@ -1,0 +1,14 @@
+{
+  "name": "playw-your-logo-add-to-cart-web",
+  "version": "1.0.0",
+  "description": "Validate user is able to add product to cart and delete from cart via desktop browsers",
+  "main": "add-to-cart.spec.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2",
+    "allure-playwright": "^2.0.0-beta.16"
+  }
+}
