@@ -8,14 +8,14 @@ const config = {
   expect: {
     timeout: 5000,
   },
-
   retries: 1,
+
   fullyParallel: true,
 
   use: {
     launchOptions: {
       // args: ["--start-maximized"],
-      //   slowMo: 200,
+      // slowMo: 1000,
     },
     headless: false,
     // browserName: "chromium",
@@ -24,6 +24,8 @@ const config = {
     // viewport: { width: 1366, height: 768 },
     trace: "on",
   },
+
+  // reporter: "allure-playwright",
 
   projects: [
     {
@@ -35,7 +37,7 @@ const config = {
     // {
     //   name: "Firefox",
     //   use: {
-    //     ...devices["Desktop Firefox"], // Issues with Firefox
+    //     ...devices["Desktop Firefox"], // DO NOT RUN FIREFOX. There's issues with Firefox.
     //   },
     // },
     {
